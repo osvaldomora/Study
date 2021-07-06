@@ -18,6 +18,21 @@ public class PruebaLambda3 {
 		System.out.println(pl3.opera(mult, 1, 2));
 		
 		
+		Calculadora sumaN = new Calculadora() {
+
+			@Override
+			public int operacion(int num1, int num2) {
+				System.out.println("A expresion lamda implements tethod of a functional interface");
+				return num1*num2;
+			}
+			
+			
+		};
+		
+		sumaN.operacion(10, 5);
+		
+		
+		
 
 	}
 	
