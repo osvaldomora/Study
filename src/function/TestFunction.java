@@ -10,10 +10,9 @@ public class TestFunction {
 		System.out.println(convertidor.apply(5).length());
 		
 		
-		Function<Integer, Integer> abc= new Function<Integer, Integer>() {
-			
+		Function<Integer, String> abc= new Function<Integer, String>() {			
 			@Override
-			public Integer apply(Integer t) {
+			public String apply(Integer t) {
 				// TODO Auto-generated method stub
 				return null;
 			}
